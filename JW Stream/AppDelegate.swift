@@ -8,14 +8,33 @@
 
 import UIKit
 
+let base="http://mediator.jw.org" // Current content distribution domain name
+let version="v1" // Version folder?
+var languageCode="E" // Initial language is English
+
+var languageList:Array<NSDictionary>?=nil // Languages variable, if this doesn't recieve content then the app doesn't work
+var textDirection=UIUserInterfaceLayoutDirection.LeftToRight // This specifies whether the current language direction is right to left or left to right
+var cacheDirectory=NSSearchPathForDirectoriesInDomains(.CachesDirectory , .UserDomainMask, true).first
+
+
+
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        /*PTPusherChannel *channel = [client subscribeToChannelNamed:@"my-channel"];
+        [channel bindToEventNamed:@"my-event" handleWithBlock:^(PTPusherEvent
+        *channelEvent) {
+        NSString *message = [channelEvent.data objectForKey:@"text"];
+        NSLog(@"message received: %@", message);
+        }];*/
+        
         return true
     }
 

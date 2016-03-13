@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F59B0F91C868C8400262AD5 /* squares.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F59B0F81C868C8400262AD5 /* squares.png */; };
+		9F9F88E01C88E84B00A34139 /* ResourceHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F88DF1C88E84B00A34139 /* ResourceHandling.swift */; };
+		9F9F88E21C898DB500A34139 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9F88E11C898DB500A34139 /* JavaScriptCore.framework */; };
+		9F9F88E41C898E9500A34139 /* pusher.js in Resources */ = {isa = PBXBuildFile; fileRef = 9F9F88E31C898E9500A34139 /* pusher.js */; };
+		9F9F88E61C8A37F500A34139 /* pusher.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F9F88E51C8A37F500A34139 /* pusher.html */; };
+		9FC87AFD1C84FD5A004477E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC87AFC1C84FD5A004477E5 /* AppDelegate.swift */; };
+		9FC87AFF1C84FD5A004477E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC87AFE1C84FD5A004477E5 /* ViewController.swift */; };
+		9FC87B021C84FD5A004477E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC87B001C84FD5A004477E5 /* Main.storyboard */; };
+		9FC87B041C84FD5A004477E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC87B031C84FD5A004477E5 /* Assets.xcassets */; };
+		9FC87B1A1C84FD5A004477E5 /* JW_StreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC87B191C84FD5A004477E5 /* JW_StreamUITests.swift */; };
+		9FD587611C85018800A80157 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587601C85018800A80157 /* background.jpeg */; };
+		9FD587661C85096100A80157 /* MeetingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587621C85096100A80157 /* MeetingsController.swift */; };
+		9FD587671C85096100A80157 /* MeetingsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587631C85096100A80157 /* MeetingsDetailController.swift */; };
+		9FD587681C85096100A80157 /* MeetingsContentDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587641C85096100A80157 /* MeetingsContentDetailController.swift */; };
+		9FD587691C85096100A80157 /* MeetingsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587651C85096100A80157 /* MeetingsCollectionView.swift */; };
+		9FD5876C1C8517BC00A80157 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5876A1C8517BC00A80157 /* Control.swift */; };
+		9FD587721C8517D500A80157 /* TryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587701C8517D500A80157 /* TryCatch.m */; };
+		9FD587751C85187800A80157 /* SuperMediaHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587741C85187800A80157 /* SuperMediaHandler.swift */; };
+		9FD587771C85188000A80157 /* SuperCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587761C85188000A80157 /* SuperCollectionView.swift */; };
+		9FD5877C1C8518BE00A80157 /* CollectionViewHorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5877A1C8518BE00A80157 /* CollectionViewHorizontalFlowLayout.swift */; };
+		9FD5877D1C8518BE00A80157 /* CollectionViewAlignmentFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5877B1C8518BE00A80157 /* CollectionViewAlignmentFlowLayout.swift */; };
+		9FD5877F1C8518C200A80157 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5877E1C8518C200A80157 /* MarqueeLabel.swift */; };
+		9FD587811C8518C900A80157 /* JWBroadcastingActvityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587801C8518C900A80157 /* JWBroadcastingActvityIndicator.swift */; };
+		9FD587831C8518CF00A80157 /* StreamingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587821C8518CF00A80157 /* StreamingView.swift */; };
+		9FD587861C851D1800A80157 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587841C851D1800A80157 /* en.json */; };
+		9FD587871C851D1800A80157 /* Monthly-Meetings-En.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587851C851D1800A80157 /* Monthly-Meetings-En.json */; };
+		9FD587891C851D6E00A80157 /* Assembly.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587881C851D6E00A80157 /* Assembly.png */; };
+		9FD5878B1C851D7700A80157 /* 2014-International-Conventions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5878A1C851D7700A80157 /* 2014-International-Conventions.jpg */; };
+		9FD5878D1C851D7F00A80157 /* Imitate-Jesus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5878C1C851D7F00A80157 /* Imitate-Jesus.png */; };
+		9FD5878F1C851D8600A80157 /* Regional-Conventions-real-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5878E1C851D8600A80157 /* Regional-Conventions-real-1.png */; };
+		9FD587911C851D8F00A80157 /* weekly-meetings-real-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587901C851D8F00A80157 /* weekly-meetings-real-1.png */; };
+		9FD587931C851D9800A80157 /* weekly-meetings-real-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587921C851D9800A80157 /* weekly-meetings-real-2.png */; };
+		9FD587951C851DE600A80157 /* languageVideos in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587941C851DE600A80157 /* languageVideos */; };
+		9FD587971C851E2500A80157 /* TableViewCellSmarterLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587961C851E2500A80157 /* TableViewCellSmarterLayout.swift */; };
+		9FD5879A1C851E4600A80157 /* Afternoon Session-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587981C851E4500A80157 /* Afternoon Session-2.png */; };
+		9FD5879B1C851E4600A80157 /* Morning Session-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587991C851E4600A80157 /* Morning Session-2.png */; };
+		9FD5879E1C851E4F00A80157 /* Public Talk.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5879C1C851E4F00A80157 /* Public Talk.png */; };
+		9FD5879F1C851E4F00A80157 /* Watchtower Study.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5879D1C851E4F00A80157 /* Watchtower Study.png */; };
+		9FD587A11C851E5D00A80157 /* Day-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD587A01C851E5D00A80157 /* Day-1.png */; };
+		9FD587A31C85243100A80157 /* VideoOnDemandMainCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD587A21C85243100A80157 /* VideoOnDemandMainCategories.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FC87B0B1C84FD5A004477E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC87AF11C84FD5A004477E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC87AF81C84FD5A004477E5;
+			remoteInfo = "JW Stream";
+		};
+		9FC87B161C84FD5A004477E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC87AF11C84FD5A004477E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC87AF81C84FD5A004477E5;
+			remoteInfo = "JW Stream";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F59B0F81C868C8400262AD5 /* squares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squares.png; sourceTree = "<group>"; };
+		9F59B1091C869F4E00262AD5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9F59B10B1C869F5300262AD5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9F59B10D1C869F5B00262AD5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9F9F88DF1C88E84B00A34139 /* ResourceHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourceHandling.swift; path = ../../../Desktop/Work/Pryzm/App/Pryzm/Pryzm/ResourceHandling.swift; sourceTree = "<group>"; };
+		9F9F88E11C898DB500A34139 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9F9F88E31C898E9500A34139 /* pusher.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pusher.js; sourceTree = "<group>"; };
+		9F9F88E51C8A37F500A34139 /* pusher.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pusher.html; sourceTree = "<group>"; };
+		9FC87AF91C84FD5A004477E5 /* JW Streaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JW Streaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC87AFC1C84FD5A004477E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FC87AFE1C84FD5A004477E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FC87B011C84FD5A004477E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FC87B031C84FD5A004477E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FC87B051C84FD5A004477E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC87B0A1C84FD5A004477E5 /* JW Streaming.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JW Streaming.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC87B101C84FD5A004477E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC87B151C84FD5A004477E5 /* JW Streaming.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JW Streaming.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC87B191C84FD5A004477E5 /* JW_StreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JW_StreamUITests.swift; sourceTree = "<group>"; };
+		9FC87B1B1C84FD5A004477E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD587601C85018800A80157 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+		9FD587621C85096100A80157 /* MeetingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsController.swift; sourceTree = "<group>"; };
+		9FD587631C85096100A80157 /* MeetingsDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsDetailController.swift; sourceTree = "<group>"; };
+		9FD587641C85096100A80157 /* MeetingsContentDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsContentDetailController.swift; sourceTree = "<group>"; };
+		9FD587651C85096100A80157 /* MeetingsCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsCollectionView.swift; sourceTree = "<group>"; };
+		9FD5876A1C8517BC00A80157 /* Control.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
+		9FD5876E1C8517D400A80157 /* JW Stream-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JW Stream-Bridging-Header.h"; sourceTree = "<group>"; };
+		9FD5876F1C8517D500A80157 /* TryCatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TryCatch.h; sourceTree = "<group>"; };
+		9FD587701C8517D500A80157 /* TryCatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TryCatch.m; sourceTree = "<group>"; };
+		9FD587741C85187800A80157 /* SuperMediaHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperMediaHandler.swift; sourceTree = "<group>"; };
+		9FD587761C85188000A80157 /* SuperCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperCollectionView.swift; sourceTree = "<group>"; };
+		9FD5877A1C8518BE00A80157 /* CollectionViewHorizontalFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalFlowLayout.swift; sourceTree = "<group>"; };
+		9FD5877B1C8518BE00A80157 /* CollectionViewAlignmentFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewAlignmentFlowLayout.swift; sourceTree = "<group>"; };
+		9FD5877E1C8518C200A80157 /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
+		9FD587801C8518C900A80157 /* JWBroadcastingActvityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWBroadcastingActvityIndicator.swift; sourceTree = "<group>"; };
+		9FD587821C8518CF00A80157 /* StreamingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamingView.swift; sourceTree = "<group>"; };
+		9FD587841C851D1800A80157 /* en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		9FD587851C851D1800A80157 /* Monthly-Meetings-En.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Monthly-Meetings-En.json"; sourceTree = "<group>"; };
+		9FD587881C851D6E00A80157 /* Assembly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Assembly.png; sourceTree = "<group>"; };
+		9FD5878A1C851D7700A80157 /* 2014-International-Conventions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2014-International-Conventions.jpg"; sourceTree = "<group>"; };
+		9FD5878C1C851D7F00A80157 /* Imitate-Jesus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Imitate-Jesus.png"; sourceTree = "<group>"; };
+		9FD5878E1C851D8600A80157 /* Regional-Conventions-real-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Regional-Conventions-real-1.png"; sourceTree = "<group>"; };
+		9FD587901C851D8F00A80157 /* weekly-meetings-real-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weekly-meetings-real-1.png"; sourceTree = "<group>"; };
+		9FD587921C851D9800A80157 /* weekly-meetings-real-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weekly-meetings-real-2.png"; sourceTree = "<group>"; };
+		9FD587941C851DE600A80157 /* languageVideos */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = languageVideos; sourceTree = "<group>"; };
+		9FD587961C851E2500A80157 /* TableViewCellSmarterLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellSmarterLayout.swift; sourceTree = "<group>"; };
+		9FD587981C851E4500A80157 /* Afternoon Session-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Afternoon Session-2.png"; sourceTree = "<group>"; };
+		9FD587991C851E4600A80157 /* Morning Session-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morning Session-2.png"; sourceTree = "<group>"; };
+		9FD5879C1C851E4F00A80157 /* Public Talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Public Talk.png"; sourceTree = "<group>"; };
+		9FD5879D1C851E4F00A80157 /* Watchtower Study.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watchtower Study.png"; sourceTree = "<group>"; };
+		9FD587A01C851E5D00A80157 /* Day-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Day-1.png"; sourceTree = "<group>"; };
+		9FD587A21C85243100A80157 /* VideoOnDemandMainCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoOnDemandMainCategories.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC87AF61C84FD5A004477E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9F88E21C898DB500A34139 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC87B071C84FD5A004477E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC87B121C84FD5A004477E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FC87AF01C84FD5A004477E5 = {
+			isa = PBXGroup;
+			children = (
+				9F59B10D1C869F5B00262AD5 /* SystemConfiguration.framework */,
+				9F59B10B1C869F5300262AD5 /* Security.framework */,
+				9F59B1091C869F4E00262AD5 /* CFNetwork.framework */,
+				9FC87AFB1C84FD5A004477E5 /* JW Stream */,
+				9FC87B0D1C84FD5A004477E5 /* JW StreamTests */,
+				9FC87B181C84FD5A004477E5 /* JW StreamUITests */,
+				9FC87AFA1C84FD5A004477E5 /* Products */,
+				EB59FB3D4B48E6FD6824D5F3 /* Pods */,
+				A93EE5647D3FFD9DE875116A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC87AFA1C84FD5A004477E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC87AF91C84FD5A004477E5 /* JW Streaming.app */,
+				9FC87B0A1C84FD5A004477E5 /* JW Streaming.xctest */,
+				9FC87B151C84FD5A004477E5 /* JW Streaming.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC87AFB1C84FD5A004477E5 /* JW Stream */ = {
+			isa = PBXGroup;
+			children = (
+				9FD587781C85188200A80157 /* shared works */,
+				9FC87AFC1C84FD5A004477E5 /* AppDelegate.swift */,
+				9FC87AFE1C84FD5A004477E5 /* ViewController.swift */,
+				9F9F88E51C8A37F500A34139 /* pusher.html */,
+				9F9F88E31C898E9500A34139 /* pusher.js */,
+				9FC87B001C84FD5A004477E5 /* Main.storyboard */,
+				9FD587601C85018800A80157 /* background.jpeg */,
+				9F59B0F81C868C8400262AD5 /* squares.png */,
+				9FD587621C85096100A80157 /* MeetingsController.swift */,
+				9FD587631C85096100A80157 /* MeetingsDetailController.swift */,
+				9FD587641C85096100A80157 /* MeetingsContentDetailController.swift */,
+				9FD587651C85096100A80157 /* MeetingsCollectionView.swift */,
+				9FD587961C851E2500A80157 /* TableViewCellSmarterLayout.swift */,
+				9FD587A21C85243100A80157 /* VideoOnDemandMainCategories.swift */,
+				9FD587881C851D6E00A80157 /* Assembly.png */,
+				9FD5878A1C851D7700A80157 /* 2014-International-Conventions.jpg */,
+				9FD5878C1C851D7F00A80157 /* Imitate-Jesus.png */,
+				9FD5878E1C851D8600A80157 /* Regional-Conventions-real-1.png */,
+				9FD587901C851D8F00A80157 /* weekly-meetings-real-1.png */,
+				9FD587921C851D9800A80157 /* weekly-meetings-real-2.png */,
+				9FD587981C851E4500A80157 /* Afternoon Session-2.png */,
+				9FD587991C851E4600A80157 /* Morning Session-2.png */,
+				9FD5879C1C851E4F00A80157 /* Public Talk.png */,
+				9FD5879D1C851E4F00A80157 /* Watchtower Study.png */,
+				9FD587A01C851E5D00A80157 /* Day-1.png */,
+				9FD587941C851DE600A80157 /* languageVideos */,
+				9FD587841C851D1800A80157 /* en.json */,
+				9FD587851C851D1800A80157 /* Monthly-Meetings-En.json */,
+				9FC87B031C84FD5A004477E5 /* Assets.xcassets */,
+				9FC87B051C84FD5A004477E5 /* Info.plist */,
+			);
+			path = "JW Stream";
+			sourceTree = "<group>";
+		};
+		9FC87B0D1C84FD5A004477E5 /* JW StreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FC87B101C84FD5A004477E5 /* Info.plist */,
+			);
+			path = "JW StreamTests";
+			sourceTree = "<group>";
+		};
+		9FC87B181C84FD5A004477E5 /* JW StreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FC87B191C84FD5A004477E5 /* JW_StreamUITests.swift */,
+				9FC87B1B1C84FD5A004477E5 /* Info.plist */,
+			);
+			path = "JW StreamUITests";
+			sourceTree = "<group>";
+		};
+		9FD587731C8517E900A80157 /* unfolding */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5876A1C8517BC00A80157 /* Control.swift */,
+				9FD5876F1C8517D500A80157 /* TryCatch.h */,
+				9FD587701C8517D500A80157 /* TryCatch.m */,
+				9FD5876E1C8517D400A80157 /* JW Stream-Bridging-Header.h */,
+				9F9F88DF1C88E84B00A34139 /* ResourceHandling.swift */,
+			);
+			name = unfolding;
+			sourceTree = "<group>";
+		};
+		9FD587781C85188200A80157 /* shared works */ = {
+			isa = PBXGroup;
+			children = (
+				9FD587731C8517E900A80157 /* unfolding */,
+				9FD587791C85188700A80157 /* visual frameworks */,
+			);
+			name = "shared works";
+			sourceTree = "<group>";
+		};
+		9FD587791C85188700A80157 /* visual frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5877A1C8518BE00A80157 /* CollectionViewHorizontalFlowLayout.swift */,
+				9FD5877B1C8518BE00A80157 /* CollectionViewAlignmentFlowLayout.swift */,
+				9FD5877E1C8518C200A80157 /* MarqueeLabel.swift */,
+				9FD587741C85187800A80157 /* SuperMediaHandler.swift */,
+				9FD587761C85188000A80157 /* SuperCollectionView.swift */,
+				9FD587821C8518CF00A80157 /* StreamingView.swift */,
+				9FD587801C8518C900A80157 /* JWBroadcastingActvityIndicator.swift */,
+			);
+			name = "visual frameworks";
+			sourceTree = "<group>";
+		};
+		A93EE5647D3FFD9DE875116A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F88E11C898DB500A34139 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB59FB3D4B48E6FD6824D5F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC87AF81C84FD5A004477E5 /* JW Streaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC87B1E1C84FD5A004477E5 /* Build configuration list for PBXNativeTarget "JW Streaming" */;
+			buildPhases = (
+				9FC87AF51C84FD5A004477E5 /* Sources */,
+				9FC87AF61C84FD5A004477E5 /* Frameworks */,
+				9FC87AF71C84FD5A004477E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JW Streaming";
+			productName = "JW Stream";
+			productReference = 9FC87AF91C84FD5A004477E5 /* JW Streaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FC87B091C84FD5A004477E5 /* JW StreamingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC87B211C84FD5A004477E5 /* Build configuration list for PBXNativeTarget "JW StreamingTests" */;
+			buildPhases = (
+				9FC87B061C84FD5A004477E5 /* Sources */,
+				9FC87B071C84FD5A004477E5 /* Frameworks */,
+				9FC87B081C84FD5A004477E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC87B0C1C84FD5A004477E5 /* PBXTargetDependency */,
+			);
+			name = "JW StreamingTests";
+			productName = "JW StreamTests";
+			productReference = 9FC87B0A1C84FD5A004477E5 /* JW Streaming.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FC87B141C84FD5A004477E5 /* JW StreamingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC87B241C84FD5A004477E5 /* Build configuration list for PBXNativeTarget "JW StreamingUITests" */;
+			buildPhases = (
+				9FC87B111C84FD5A004477E5 /* Sources */,
+				9FC87B121C84FD5A004477E5 /* Frameworks */,
+				9FC87B131C84FD5A004477E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC87B171C84FD5A004477E5 /* PBXTargetDependency */,
+			);
+			name = "JW StreamingUITests";
+			productName = "JW StreamUITests";
+			productReference = 9FC87B151C84FD5A004477E5 /* JW Streaming.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC87AF11C84FD5A004477E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xquared;
+				TargetAttributes = {
+					9FC87AF81C84FD5A004477E5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = EXV92HA4U9;
+					};
+					9FC87B091C84FD5A004477E5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9FC87AF81C84FD5A004477E5;
+					};
+					9FC87B141C84FD5A004477E5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9FC87AF81C84FD5A004477E5;
+					};
+				};
+			};
+			buildConfigurationList = 9FC87AF41C84FD5A004477E5 /* Build configuration list for PBXProject "JW Streaming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FC87AF01C84FD5A004477E5;
+			productRefGroup = 9FC87AFA1C84FD5A004477E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC87AF81C84FD5A004477E5 /* JW Streaming */,
+				9FC87B091C84FD5A004477E5 /* JW StreamingTests */,
+				9FC87B141C84FD5A004477E5 /* JW StreamingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC87AF71C84FD5A004477E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD5878D1C851D7F00A80157 /* Imitate-Jesus.png in Resources */,
+				9FD5879B1C851E4600A80157 /* Morning Session-2.png in Resources */,
+				9FC87B041C84FD5A004477E5 /* Assets.xcassets in Resources */,
+				9FD587931C851D9800A80157 /* weekly-meetings-real-2.png in Resources */,
+				9FD5878B1C851D7700A80157 /* 2014-International-Conventions.jpg in Resources */,
+				9FD587871C851D1800A80157 /* Monthly-Meetings-En.json in Resources */,
+				9FD587911C851D8F00A80157 /* weekly-meetings-real-1.png in Resources */,
+				9FD587A11C851E5D00A80157 /* Day-1.png in Resources */,
+				9FC87B021C84FD5A004477E5 /* Main.storyboard in Resources */,
+				9F9F88E61C8A37F500A34139 /* pusher.html in Resources */,
+				9FD5879F1C851E4F00A80157 /* Watchtower Study.png in Resources */,
+				9FD5879E1C851E4F00A80157 /* Public Talk.png in Resources */,
+				9FD587861C851D1800A80157 /* en.json in Resources */,
+				9FD587951C851DE600A80157 /* languageVideos in Resources */,
+				9FD587611C85018800A80157 /* background.jpeg in Resources */,
+				9F59B0F91C868C8400262AD5 /* squares.png in Resources */,
+				9FD5879A1C851E4600A80157 /* Afternoon Session-2.png in Resources */,
+				9FD5878F1C851D8600A80157 /* Regional-Conventions-real-1.png in Resources */,
+				9FD587891C851D6E00A80157 /* Assembly.png in Resources */,
+				9F9F88E41C898E9500A34139 /* pusher.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC87B081C84FD5A004477E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC87B131C84FD5A004477E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC87AF51C84FD5A004477E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD587671C85096100A80157 /* MeetingsDetailController.swift in Sources */,
+				9FD587771C85188000A80157 /* SuperCollectionView.swift in Sources */,
+				9FD587751C85187800A80157 /* SuperMediaHandler.swift in Sources */,
+				9FD587831C8518CF00A80157 /* StreamingView.swift in Sources */,
+				9FD587971C851E2500A80157 /* TableViewCellSmarterLayout.swift in Sources */,
+				9FC87AFF1C84FD5A004477E5 /* ViewController.swift in Sources */,
+				9FD587721C8517D500A80157 /* TryCatch.m in Sources */,
+				9FD5876C1C8517BC00A80157 /* Control.swift in Sources */,
+				9FD587A31C85243100A80157 /* VideoOnDemandMainCategories.swift in Sources */,
+				9FD5877D1C8518BE00A80157 /* CollectionViewAlignmentFlowLayout.swift in Sources */,
+				9FD587811C8518C900A80157 /* JWBroadcastingActvityIndicator.swift in Sources */,
+				9FD5877C1C8518BE00A80157 /* CollectionViewHorizontalFlowLayout.swift in Sources */,
+				9F9F88E01C88E84B00A34139 /* ResourceHandling.swift in Sources */,
+				9FD587681C85096100A80157 /* MeetingsContentDetailController.swift in Sources */,
+				9FC87AFD1C84FD5A004477E5 /* AppDelegate.swift in Sources */,
+				9FD587691C85096100A80157 /* MeetingsCollectionView.swift in Sources */,
+				9FD5877F1C8518C200A80157 /* MarqueeLabel.swift in Sources */,
+				9FD587661C85096100A80157 /* MeetingsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC87B061C84FD5A004477E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC87B111C84FD5A004477E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC87B1A1C84FD5A004477E5 /* JW_StreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FC87B0C1C84FD5A004477E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FC87AF81C84FD5A004477E5 /* JW Streaming */;
+			targetProxy = 9FC87B0B1C84FD5A004477E5 /* PBXContainerItemProxy */;
+		};
+		9FC87B171C84FD5A004477E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FC87AF81C84FD5A004477E5 /* JW Streaming */;
+			targetProxy = 9FC87B161C84FD5A004477E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FC87B001C84FD5A004477E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC87B011C84FD5A004477E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FC87B1C1C84FD5A004477E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		9FC87B1D1C84FD5A004477E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FC87B1F1C84FD5A004477E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "JW Stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xquared.JW-Streaming";
+				PRODUCT_NAME = "JW Streaming";
+				SWIFT_OBJC_BRIDGING_HEADER = "JW Stream/JW Stream-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FC87B201C84FD5A004477E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "JW Stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xquared.JW-Streaming";
+				PRODUCT_NAME = "JW Streaming";
+				SWIFT_OBJC_BRIDGING_HEADER = "JW Stream/JW Stream-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9FC87B221C84FD5A004477E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JW StreamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xquared.JW-StreamTests";
+				PRODUCT_NAME = "JW Streaming";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JW Streaming.app/JW Streaming";
+			};
+			name = Debug;
+		};
+		9FC87B231C84FD5A004477E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JW StreamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xquared.JW-StreamTests";
+				PRODUCT_NAME = "JW Streaming";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JW Streaming.app/JW Streaming";
+			};
+			name = Release;
+		};
+		9FC87B251C84FD5A004477E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JW StreamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xquared.JW-StreamUITests";
+				PRODUCT_NAME = "JW Streaming";
+				TEST_TARGET_NAME = "JW Stream";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9FC87B261C84FD5A004477E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JW StreamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xquared.JW-StreamUITests";
+				PRODUCT_NAME = "JW Streaming";
+				TEST_TARGET_NAME = "JW Stream";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC87AF41C84FD5A004477E5 /* Build configuration list for PBXProject "JW Streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC87B1C1C84FD5A004477E5 /* Debug */,
+				9FC87B1D1C84FD5A004477E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC87B1E1C84FD5A004477E5 /* Build configuration list for PBXNativeTarget "JW Streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC87B1F1C84FD5A004477E5 /* Debug */,
+				9FC87B201C84FD5A004477E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC87B211C84FD5A004477E5 /* Build configuration list for PBXNativeTarget "JW StreamingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC87B221C84FD5A004477E5 /* Debug */,
+				9FC87B231C84FD5A004477E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC87B241C84FD5A004477E5 /* Build configuration list for PBXNativeTarget "JW StreamingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC87B251C84FD5A004477E5 /* Debug */,
+				9FC87B261C84FD5A004477E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FC87AF11C84FD5A004477E5 /* Project object */;
+}

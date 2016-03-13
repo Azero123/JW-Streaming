@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9FC87AF81C84FD5A004477E5"
-               BuildableName = "JW Stream.app"
-               BlueprintName = "JW Stream"
-               ReferencedContainer = "container:JW Stream.xcodeproj">
+               BuildableName = "JW Streaming.app"
+               BlueprintName = "JW Streaming"
+               ReferencedContainer = "container:JW Streaming.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9FC87B091C84FD5A004477E5"
-               BuildableName = "JW StreamTests.xctest"
-               BlueprintName = "JW StreamTests"
-               ReferencedContainer = "container:JW Stream.xcodeproj">
+               BuildableName = "JW Streaming.xctest"
+               BlueprintName = "JW StreamingTests"
+               ReferencedContainer = "container:JW Streaming.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9FC87B141C84FD5A004477E5"
-               BuildableName = "JW StreamUITests.xctest"
-               BlueprintName = "JW StreamUITests"
-               ReferencedContainer = "container:JW Stream.xcodeproj">
+               BuildableName = "JW Streaming.xctest"
+               BlueprintName = "JW StreamingUITests"
+               ReferencedContainer = "container:JW Streaming.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9FC87AF81C84FD5A004477E5"
-            BuildableName = "JW Stream.app"
-            BlueprintName = "JW Stream"
-            ReferencedContainer = "container:JW Stream.xcodeproj">
+            BuildableName = "JW Streaming.app"
+            BlueprintName = "JW Streaming"
+            ReferencedContainer = "container:JW Streaming.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9FC87AF81C84FD5A004477E5"
-            BuildableName = "JW Stream.app"
-            BlueprintName = "JW Stream"
-            ReferencedContainer = "container:JW Stream.xcodeproj">
+            BuildableName = "JW Streaming.app"
+            BlueprintName = "JW Streaming"
+            ReferencedContainer = "container:JW Streaming.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9FC87AF81C84FD5A004477E5"
-            BuildableName = "JW Stream.app"
-            BlueprintName = "JW Stream"
-            ReferencedContainer = "container:JW Stream.xcodeproj">
+            BuildableName = "JW Streaming.app"
+            BlueprintName = "JW Streaming"
+            ReferencedContainer = "container:JW Streaming.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
