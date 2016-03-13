@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JW_Stream" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JW_Streaming" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -202,7 +202,7 @@
         <!--Meetings-->
         <scene sceneID="NzO-un-pxz">
             <objects>
-                <viewController title="Meetings" id="Sg4-d9-nXC" customClass="MeetingsController" customModule="JW_Stream" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Meetings" id="Sg4-d9-nXC" customClass="MeetingsController" customModule="JW_Streaming" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="shF-3R-b3G"/>
                         <viewControllerLayoutGuide type="bottom" id="iFQ-e9-rus"/>
@@ -222,7 +222,7 @@
                                 </view>
                                 <blurEffect style="light"/>
                             </visualEffectView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yda-HG-P1i" customClass="VideoOnDemandMainCategories" customModule="JW_Stream" customModuleProvider="target">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yda-HG-P1i" customClass="VideoOnDemandMainCategories" customModule="JW_Streaming" customModuleProvider="target">
                                 <rect key="frame" x="109.5" y="60" width="1700" height="960"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3V6-bM-1a2">
                                     <size key="itemSize" width="50" height="50"/>
@@ -244,7 +244,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8tX-JH-Hp8">
                                                     <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keM-hz-fRV" customClass="marqueeLabel" customModule="JW_Stream" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keM-hz-fRV" customClass="marqueeLabel" customModule="JW_Streaming" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="405" width="400" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="EmJ-eu-KuW"/>
@@ -299,7 +299,7 @@
         <!--Meetings Detail Controller-->
         <scene sceneID="CTS-c2-nFk">
             <objects>
-                <viewController id="kgO-NZ-MJ9" customClass="MeetingsDetailController" customModule="JW_Stream" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kgO-NZ-MJ9" customClass="MeetingsDetailController" customModule="JW_Streaming" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bKN-fs-Q4X"/>
                         <viewControllerLayoutGuide type="bottom" id="drH-d9-Fu8"/>
@@ -321,7 +321,7 @@
                                 </constraints>
                                 <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="100" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="item" textLabel="eEo-DH-mm7" rowHeight="100" style="IBUITableViewCellStyleDefault" id="Y5R-CT-8iL" customClass="TableViewCellSmarterLayout" customModule="JW_Stream" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="item" textLabel="eEo-DH-mm7" rowHeight="100" style="IBUITableViewCellStyleDefault" id="Y5R-CT-8iL" customClass="TableViewCellSmarterLayout" customModule="JW_Streaming" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="54" width="1000" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y5R-CT-8iL" id="laE-La-kh0">
@@ -374,7 +374,7 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4O7-2g-mcg" customClass="MeetingsCollectionView" customModule="JW_Stream" customModuleProvider="target">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4O7-2g-mcg" customClass="MeetingsCollectionView" customModule="JW_Streaming" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="720" width="1285" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="Ddy-rY-WD8"/>
@@ -399,13 +399,13 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSk-Vw-inJ">
                                                     <rect key="frame" x="0.0" y="0.0" width="280" height="175"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwe-jA-ZRZ" customClass="marqueeLabel" customModule="JW_Stream" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwe-jA-ZRZ" customClass="marqueeLabel" customModule="JW_Streaming" customModuleProvider="target">
                                                     <rect key="frame" x="-10" y="200" width="300" height="50"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6A-4r-aT3" customClass="marqueeLabel" customModule="JW_Stream" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6A-4r-aT3" customClass="marqueeLabel" customModule="JW_Streaming" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="240" width="280" height="50"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -469,7 +469,7 @@
         <!--Meetings Content Detail Controller-->
         <scene sceneID="0sY-0v-Kok">
             <objects>
-                <viewController id="QwO-sd-QNA" customClass="MeetingsContentDetailController" customModule="JW_Stream" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QwO-sd-QNA" customClass="MeetingsContentDetailController" customModule="JW_Streaming" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QIm-VP-Nda"/>
                         <viewControllerLayoutGuide type="bottom" id="EIg-0n-jLl"/>
@@ -485,7 +485,7 @@
                                     <constraint firstAttribute="height" constant="717" id="jbX-oX-O1M"/>
                                 </constraints>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nnt-Dx-CKN" customClass="MeetingsCollectionView" customModule="JW_Stream" customModuleProvider="target">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nnt-Dx-CKN" customClass="MeetingsCollectionView" customModule="JW_Streaming" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="750" width="1285" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="ZHp-JF-Q1p"/>
@@ -511,7 +511,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="280" height="175"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duq-Df-rAO" customClass="marqueeLabel" customModule="JW_Stream" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duq-Df-rAO" customClass="marqueeLabel" customModule="JW_Streaming" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="200" width="250" height="50"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>

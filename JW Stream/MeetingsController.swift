@@ -8,7 +8,7 @@
 
 import UIKit
 
-var MeetingContentSections=false
+var MeetingContentSections=true
 
 class MeetingsController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     @IBOutlet weak var VideoCollectionView: UICollectionView!

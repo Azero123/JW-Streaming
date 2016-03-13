@@ -164,7 +164,7 @@ class ViewController: UIViewController, UITextFieldDelegate, ScriptingEngineExpo
         //CFRelease(theUUID);
         let uuid=NSUserDefaults.standardUserDefaults().objectForKey("UUID")
         
-        let codeCreationURL="http://10.0.1.21/createCode?uuid=\(uuid!)"
+        let codeCreationURL="http://xquared.com:8888/createCode?uuid=\(uuid!)"
         print(codeCreationURL)
         
         fetchDataUsingCache(codeCreationURL,downloaded: {
@@ -194,9 +194,9 @@ class ViewController: UIViewController, UITextFieldDelegate, ScriptingEngineExpo
     func checkServer(){
         //if (code != ""){
         
-        fetchDataUsingCache("http://10.0.1.21/isCodeBound?code=\(code)",downloaded: {
+        fetchDataUsingCache("http://xquared.com:8888/isCodeBound?code=\(code)",downloaded: {
             dispatch_async(dispatch_get_main_queue(), {
-                let approved=unfold("http://10.0.1.21/isCodeBound?code=\(self.code)|codeApproved") as! String
+                let approved=unfold("http://xquared.com:8888/isCodeBound?code=\(self.code)|codeApproved") as! String
                 if (approved == "true"){
                     print("code approved")
                     self.performSegueWithIdentifier("showMainPage", sender: nil)
@@ -231,10 +231,10 @@ class ViewController: UIViewController, UITextFieldDelegate, ScriptingEngineExpo
         if (final.characters.count>5){
             textField.text=""
             self.view.window?.endEditing(true)
-            fetchDataUsingCache("http://10.0.1.21/broadcast/checkCode.php?code=\(final)", downloaded: {
+            fetchDataUsingCache("http://xquared.com:8888/broadcast/checkCode.php?code=\(final)", downloaded: {
                 dispatch_async(dispatch_get_main_queue(), {
                 
-                    self.loginBasedOn("http://10.0.1.21/broadcast/checkCode.php?code=\(final)")
+                    self.loginBasedOn("http://xquared.com:8888/broadcast/checkCode.php?code=\(final)")
                 
                 })
             }, usingCache:false)

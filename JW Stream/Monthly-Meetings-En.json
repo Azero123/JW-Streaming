@@ -3,10 +3,10 @@
   "month-image": "Meeting-Workbook-2016-February.png",
   "images": {
   "tvtop" : {
-  "normal" : "http://10.0.1.21/broadcast/Meeting-Workbook-2016-February.png"
+  "normal" : "http://xquared.com:8888/broadcast/Meeting-Workbook-2016-February.png"
   },
   "wss": {
-  "lg": "http://10.0.1.21/broadcast/Meeting-Workbook-2016-February%20wss.png",
+  "lg": "http://xquared.com:8888/broadcast/Meeting-Workbook-2016-February%20wss.png",
   }
   },
   "videos": [
@@ -16,34 +16,34 @@
              "name": "Introduction to Nehemiah",
              "images": {
              "wss": {
-             "lg": "http://10.0.1.21/broadcast/1001071928_univ_wss_lg.jpg",
+             "lg": "http://xquared.com:8888/broadcast/1001071928_univ_wss_lg.jpg",
              }
              }
              },
              
              {
-             "url": "http://10.0.1.21/broadcast/mwb16.02_E_01.mp4",
+             "url": "http://xquared.com:8888/broadcast/mwb16.02_E_01.mp4",
              "name": "Sample 1",
              "images": {
              "wss": {
-             "lg": "http://10.0.1.21/broadcast/February%202016%20Awake%20Preso%201.png",
+             "lg": "http://xquared.com:8888/broadcast/February%202016%20Awake%20Preso%201.png",
              }
              }
              },
              {
-             "url": "http://10.0.1.21/broadcast/mwb16.02_E_02.mp4",
+             "url": "http://xquared.com:8888/broadcast/mwb16.02_E_02.mp4",
              "name": "Sample 2",
              "images": {
              "wss": {
-             "lg": "http://10.0.1.21/broadcast/February%202016%20Awake%20Preso%202.png",
+             "lg": "http://xquared.com:8888/broadcast/February%202016%20Awake%20Preso%202.png",
              }
              }
              }, {
-             "url": "http://10.0.1.21/broadcast/ld_E_01.mp4",
+             "url": "http://xquared.com:8888/broadcast/ld_E_01.mp4",
              "name": "Listen to God",
              "images": {
              "wss": {
-             "lg": "http://10.0.1.21/broadcast/Listen%20to%20God.png"
+             "lg": "http://xquared.com:8888/broadcast/Listen%20to%20God.png"
              }
              }
              }, {
@@ -59,7 +59,7 @@
              "name": "The Best Life Ever",
              "images": {
              "wss": {
-             "lg": "http://10.0.1.21/broadcast/The%20best%20life%20ever.png"
+             "lg": "http://xquared.com:8888/broadcast/The%20best%20life%20ever.png"
              }
              }
              }],
@@ -68,34 +68,34 @@
   "month-image": "Meeting-Workbook-2016-March.png",
   "images": {
   "tvtop" : {
-  "normal" : "http://10.0.1.21/broadcast/Meeting-Workbook-2016-March.png"
+  "normal" : "http://xquared.com:8888/broadcast/Meeting-Workbook-2016-March.png"
   },
   "wss": {
-  "lg": "http://10.0.1.21/broadcast/Meeting-Workbook-2016-March%20wss.png",
+  "lg": "http://xquared.com:8888/broadcast/Meeting-Workbook-2016-March%20wss.png",
   }
   },
   "videos": [{
-             "url": "http://10.0.1.21/broadcast/mwb16.03_E_01.mp4",
+             "url": "http://xquared.com:8888/broadcast/mwb16.03_E_01.mp4",
              "name": "Sample 1",
              "images": {
              "wss": {
-             "lg": "http://10.0.1.21/broadcast/sample%201.png",
+             "lg": "http://xquared.com:8888/broadcast/sample%201.png",
              }
              }
              },  {
-             "url": "http://10.0.1.21/broadcast/mwb16.03_E_02.mp4",
+             "url": "http://xquared.com:8888/broadcast/mwb16.03_E_02.mp4",
              "name": "Sample 2",
              "images": {
              "wss": {
-             "lg": "http://10.0.1.21/broadcast/sample%202.png",
+             "lg": "http://xquared.com:8888/broadcast/sample%202.png",
              }
              }
              },{
-             "url": "http://10.0.1.21/broadcast/mwb16.03_E_03.mp4",
+             "url": "http://xquared.com:8888/broadcast/mwb16.03_E_03.mp4",
              "name": "Sample 3",
              "images": {
              "wss": {
-             "lg": "http://10.0.1.21/broadcast/sample%203.png",
+             "lg": "http://xquared.com:8888/broadcast/sample%203.png",
              }
              }
              }],
